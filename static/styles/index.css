@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #343541;
+    color: #d1d5db;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    overflow-y: auto;
+    margin-top: 60px; /* Add margin to move content down */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #40414f;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    border-top: 1px solid #565869;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #565869;
+    border-radius: 5px;
+    background-color: #40414f;
+    color: #d1d5db;
+    left: 10px;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+button, label {
+    background-color: #10a37f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+    margin-left: 10px; 
+}
+
+#h1 {
+    position: absolute;
+    top: 20px; /* Move the h1 down */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #10a37f;
+}
+
+.query-result {
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    right: 20px;
+    background-color: #2d3748;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #d1d5db;
+}

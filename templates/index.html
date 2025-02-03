@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhysiSolve</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}"> <!-- Ensure the path is correct -->
 </head>
+
 <body>
-    <h1>Hello, Guys!</h1>
+    <h1 id="h1">Welcome to PhysiSolve</h1>
+    <div class="content">
+        <div class="query-result">
+            {% if result %}
+            <p>{{ result }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <form class="input-bar" method="POST" action="/process" enctype="multipart/form-data">
+        <label for="image_file">📷</label>
+        <input type="file" id="image_file" name="image_file" accept="image/*" capture="camera">
+
+        <input type="text" name="text_input" placeholder="Type your problem here...">
+
+        <button type="submit">➡️</button>
+    </form>
 </body>
+
 </html>
