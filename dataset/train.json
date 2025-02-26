@@ -1,0 +1,4760 @@
+[
+    {
+        "id": 250,
+        "question": "A 5 kg block is lifted to a height of 6 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "300 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 6 = 300 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 95,
+        "question": "A ball is thrown vertically upwards with a velocity of 25 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "31.25 m",
+            "40 m"
+        ],
+        "answer": "C",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 25\u00b2 - 2*10*h => h = 31.25 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 159,
+        "question": "A charge of 15 C is placed in an electric field of intensity 30 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "450 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 15 * 30 = 450 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 165,
+        "question": "A bar magnet is placed in a non-uniform magnetic field. What happens to the magnet?",
+        "subject": "Magnetism",
+        "choices": [
+            "It aligns with the field",
+            "It rotates randomly",
+            "It moves towards the stronger part of the field",
+            "It remains stationary"
+        ],
+        "answer": "C",
+        "explanation": "A bar magnet moves towards the stronger part of a non-uniform magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 247,
+        "question": "A body is projected horizontally with a velocity of 30 m/s from a height of 90 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "3 s",
+            "4 s",
+            "5 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 90 = (1/2)*10*t\u00b2 => t = \u221a(18) \u2248 4.24 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 229,
+        "question": "A convex lens has a focal length of 15 cm. An object is placed 7.5 cm away. What is the nature of the image?",
+        "subject": "Optics",
+        "choices": [
+            "Real and inverted",
+            "Real and erect",
+            "Virtual and inverted",
+            "Virtual and erect"
+        ],
+        "answer": "D",
+        "explanation": "For a convex lens, when the object is placed between the lens and the focal point, the image is virtual and erect.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 191,
+        "question": "A 10 \u03a9 resistor is connected across a 10 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "2 A",
+            "5 A"
+        ],
+        "answer": "B",
+        "explanation": "I = V/R = 10/10 = 1 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 123,
+        "question": "A force of 40 N is applied to a 4 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 40/4 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 258,
+        "question": "A 100 W bulb is used for 3 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.1 kWh",
+            "0.2 kWh",
+            "0.3 kWh",
+            "0.4 kWh"
+        ],
+        "answer": "C",
+        "explanation": "Energy = Power * Time = 100 W * 3 h = 0.3 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 293,
+        "question": "A 100 W bulb is used for 3 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.1 kWh",
+            "0.2 kWh",
+            "0.3 kWh",
+            "0.4 kWh"
+        ],
+        "answer": "C",
+        "explanation": "Energy = Power * Time = 100 W * 3 h = 0.3 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 193,
+        "question": "What is the change in internal energy of an ideal gas during an isobaric process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "D",
+        "explanation": "In an isobaric process, the change in internal energy depends on the heat added to or removed from the gas.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 306,
+        "question": "What is the difference between isotopes and isobars?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "B",
+        "explanation": "Isotopes have the same number of protons but different number of neutrons, while isobars have the same mass number but different atomic numbers.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 39,
+        "question": "Three resistors of 2 \u03a9, 3 \u03a9, and 6 \u03a9 are connected in series. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1 \u03a9",
+            "5 \u03a9",
+            "6 \u03a9",
+            "11 \u03a9"
+        ],
+        "answer": "D",
+        "explanation": "For resistors in series, R_eq = R1 + R2 + R3 = 2 + 3 + 6 = 11 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 339,
+        "question": "Two resistors of 25\u03a9 and 15\u03a9 are connected in parallel. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1\u03a9",
+            "2\u03a9",
+            "9.38\u03a9",
+            "10\u03a9"
+        ],
+        "answer": "C",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 => 1/R_eq = 1/25 + 1/15 => R_eq = 9.38\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 348,
+        "question": "A 12 kg block is pushed with a force of 60 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 60 - (0.2 * 12 * 10) = 36. Therefore, a = 36/12 = 3 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 365,
+        "question": "Two wires carry currents of 6A and 8A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 44,
+        "question": "What is the critical angle for light travelling from glass (refractive index 1.5) to air?",
+        "subject": "Optics",
+        "choices": [
+            "30 degrees",
+            "41.8 degrees",
+            "45 degrees",
+            "60 degrees"
+        ],
+        "answer": "B",
+        "explanation": "sin(critical angle) = 1 / refractive index => critical angle = arcsin(1/1.5) \u2248 41.8 degrees",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 218,
+        "question": "A charge of 10 C is placed in an electric field of intensity 20 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "400 N"
+        ],
+        "answer": "B",
+        "explanation": "F = qE = 10 * 20 = 200 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 100,
+        "question": "A car travels with a constant velocity of 25 m/s for 8 seconds. What is the distance covered?",
+        "subject": "Kinematics",
+        "choices": [
+            "100 m",
+            "150 m",
+            "200 m",
+            "250 m"
+        ],
+        "answer": "C",
+        "explanation": "Distance = Velocity * Time = 25 * 8 = 200 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 54,
+        "question": "A force of 20 N acts on a body of mass 4 kg. The acceleration produced in the body is:",
+        "subject": "Mechanics",
+        "choices": [
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "8 m/s\u00b2",
+            "10 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 20/4 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 272,
+        "question": "A car accelerates from 0 to 60 m/s in 12 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (60 - 0) / 12 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 170,
+        "question": "A car accelerates from 0 to 40 m/s in 8 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "a = (v - u) / t = (40 - 0) / 8 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 252,
+        "question": "Two wires carry currents of 3A and 5A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 78,
+        "question": "A concave lens has a focal length of 15 cm. An object is placed 30 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "-10 cm",
+            "-15 cm",
+            "-20 cm",
+            "-30 cm"
+        ],
+        "answer": "C",
+        "explanation": "1/f = 1/v - 1/u => 1/(-15) = 1/v - 1/30 => v = -20 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 10,
+        "question": "A ball is thrown vertically upwards with a velocity of 20 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "40 m",
+            "80 m"
+        ],
+        "answer": "B",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 20\u00b2 - 2*10*h => h = 20 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 69,
+        "question": "A pendulum completes one oscillation in 2 seconds. What is its frequency?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.25 Hz",
+            "0.5 Hz",
+            "1 Hz",
+            "2 Hz"
+        ],
+        "answer": "B",
+        "explanation": "Frequency = 1/Time period = 1/2 = 0.5 Hz",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 199,
+        "question": "What is the function of a capacitor?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "B",
+        "explanation": "A capacitor stores electrical charge.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 3,
+        "question": "A force of 50 N is applied to a 5 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 50/5 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 368,
+        "question": "A Carnot engine operates between 50\u00b0C and 150\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (323/423) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 373,
+        "question": "A parallel plate capacitor has a plate separation of 2 mm and potential difference of 200 V. What is the electric field?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10^4 V/m",
+            "10^5 V/m",
+            "10^6 V/m",
+            "10^7 V/m"
+        ],
+        "answer": "B",
+        "explanation": "E = V/d = 200V / (2 \u00d7 10^-3 m) = 10^5 V/m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 260,
+        "question": "A charge of 5 C is placed in an electric field of intensity 15 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "75 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 5 * 15 = 75 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 254,
+        "question": "A 20 \u03a9 resistor is connected across a 30 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 30/20 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 245,
+        "question": "What particle is emitted during beta decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "C",
+        "explanation": "Electron (Beta Particle).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 210,
+        "question": "What particle is emitted during beta decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "C",
+        "explanation": "Electron (Beta Particle).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 56,
+        "question": "A 50 kg object is pushed with a force of 100 N.  If the friction force is 20 N, what is the object's acceleration?",
+        "subject": "Mechanics",
+        "choices": [
+            "1.6 m/s\u00b2",
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2"
+        ],
+        "answer": "A",
+        "explanation": "Net Force = Applied Force - Friction Force = 100 N - 20 N = 80 N.  Acceleration = Net Force / Mass = 80 N / 50 kg = 1.6 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 35,
+        "question": "A 10 kg object is moving with a velocity of 5 m/s. What is its kinetic energy?",
+        "subject": "Mechanics",
+        "choices": [
+            "25 J",
+            "125 J",
+            "250 J",
+            "625 J"
+        ],
+        "answer": "B",
+        "explanation": "Kinetic Energy = (1/2) * mass * velocity\u00b2 = (1/2) * 10 * 5\u00b2 = 125 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 355,
+        "question": "A 18 kg block is pushed with a force of 54 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 54 - (0.2 * 18 * 10) = 18. Therefore, a = 18/18 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 281,
+        "question": "A ball is thrown vertically upwards with a velocity of 45 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "100 m"
+        ],
+        "answer": "D",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 45\u00b2 - 2*10*h => h = 100 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 60,
+        "question": "What is the power dissipated by a 4 \u03a9 resistor carrying a 2 A current?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "2 W",
+            "4 W",
+            "8 W",
+            "16 W"
+        ],
+        "answer": "D",
+        "explanation": "P = I\u00b2R = 2\u00b2 * 4 = 16 W",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 244,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 386,
+        "question": "Which of the following waves is longitudinal?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "Light waves",
+            "Sound waves",
+            "Radio waves",
+            "X-rays"
+        ],
+        "answer": "B",
+        "explanation": "Sound waves are longitudinal because the particles vibrate parallel to the direction of wave propagation.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 290,
+        "question": "A Carnot engine operates between 20\u00b0C and 120\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (293/393) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 231,
+        "question": "A bar magnet is cut into five equal pieces. What happens to its magnetic moment?",
+        "subject": "Magnetism",
+        "choices": [
+            "Remains the same",
+            "Becomes one-fifth",
+            "Becomes double",
+            "Becomes zero"
+        ],
+        "answer": "B",
+        "explanation": "Magnetic moment is proportional to the length of the magnet. Cutting it into five equal pieces reduces the magnetic moment to one-fifth.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 380,
+        "question": "Which of the following is a scalar quantity?",
+        "subject": "Mechanics",
+        "choices": [
+            "Velocity",
+            "Acceleration",
+            "Displacement",
+            "Speed"
+        ],
+        "answer": "D",
+        "explanation": "Speed is a scalar quantity as it has only magnitude.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 30,
+        "question": "A stone is dropped from a height of 100 m. How long does it take to reach the ground? (Take g = 10 m/s\u00b2)",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "4.5 s",
+            "10 s",
+            "20 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 100 = (1/2)*10*t\u00b2 => t = \u221a(20) \u2248 4.5 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 332,
+        "question": "A Carnot engine operates between 10\u00b0C and 110\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (283/383) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 241,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 98,
+        "question": "A 15 kg block is pushed with a force of 30 N. If the coefficient of friction is 0.1, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 30 - (0.1 * 15 * 10) = 15. Therefore, a = 15/15 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 323,
+        "question": "A charge of 15 C is placed in an electric field of intensity 25 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "375 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 15 * 25 = 375 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 144,
+        "question": "What is the magnetic permeability of a paramagnetic material?",
+        "subject": "Magnetism",
+        "choices": [
+            "Less than 1",
+            "Equal to 1",
+            "Greater than 1",
+            "Zero"
+        ],
+        "answer": "C",
+        "explanation": "Paramagnetic materials have permeability slightly greater than 1.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 176,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 67,
+        "question": "A satellite orbits the Earth at a height where the acceleration due to gravity is 4 m/s\u00b2. What is the orbital speed of the satellite?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 km/s",
+            "4 km/s",
+            "6 km/s",
+            "8 km/s"
+        ],
+        "answer": "B",
+        "explanation": "v = \u221a(gr) => v = \u221a(4*10^6) = 2*10^3 m/s = 4 km/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 352,
+        "question": "A charge of 20 C is placed in an electric field of intensity 30 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "600 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 20 * 30 = 600 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 46,
+        "question": "What is the magnetic field inside a solenoid?",
+        "subject": "Magnetism",
+        "choices": [
+            "Zero",
+            "Uniform",
+            "Non-uniform",
+            "Depends on the current"
+        ],
+        "answer": "B",
+        "explanation": "The magnetic field inside a solenoid is uniform.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 228,
+        "question": "What is the change in internal energy of an ideal gas during an isochoric process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "D",
+        "explanation": "In an isochoric process, the change in internal energy depends on the heat added to or removed from the gas.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 145,
+        "question": "What is the output of a NAND gate when both inputs are HIGH?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NAND gate outputs LOW only when both inputs are HIGH.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 214,
+        "question": "A 10 kg block is pushed with a force of 30 N. If the coefficient of friction is 0.1, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 30 - (0.1 * 10 * 10) = 20. Therefore, a = 20/10 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 76,
+        "question": "A gas is compressed at constant temperature. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Boyle's Law, P1V1 = P2V2. If volume decreases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 375,
+        "question": "What is the SI unit of electric charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "Ampere",
+            "Coulomb",
+            "Volt",
+            "Ohm"
+        ],
+        "answer": "B",
+        "explanation": "The SI unit of electric charge is the Coulomb (C).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 336,
+        "question": "A car accelerates uniformly from rest to a speed of 40 m/s in 8 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "a = (v - u) / t = (40 - 0) / 8 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 89,
+        "question": "Two resistors of 8\u03a9 and 4\u03a9 are connected in parallel. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1\u03a9",
+            "2\u03a9",
+            "3\u03a9",
+            "4\u03a9"
+        ],
+        "answer": "B",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 => 1/R_eq = 1/8 + 1/4 => R_eq = 2\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 385,
+        "question": "Which law states that energy cannot be created or destroyed?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Newton\u2019s Law",
+            "Boyle\u2019s Law",
+            "Law of Conservation of Energy",
+            "Ohm\u2019s Law"
+        ],
+        "answer": "C",
+        "explanation": "The law of conservation of energy states that energy cannot be created or destroyed, only transferred or transformed.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 27,
+        "question": "What is the number of neutrons in an atom of Carbon-14?",
+        "subject": "Atoms",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "14"
+        ],
+        "answer": "C",
+        "explanation": "Carbon-14 has a mass number of 14 and atomic number of 6.  Therefore, number of neutrons = 14 - 6 = 8.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 73,
+        "question": "A 10 \u03a9 resistor and a 20 \u03a9 resistor are connected in series. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 \u03a9",
+            "15 \u03a9",
+            "20 \u03a9",
+            "30 \u03a9"
+        ],
+        "answer": "D",
+        "explanation": "R_total = R1 + R2 = 10 + 20 = 30 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 181,
+        "question": "A 5 kg mass is attached to a spring with a spring constant of 250 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "A",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(5/250) = 0.2\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 32,
+        "question": "A projectile is launched at an angle of 30 degrees with the horizontal. What is the vertical component of its velocity at the highest point?",
+        "subject": "Kinematics",
+        "choices": [
+            "0 m/s",
+            "Equal to the initial vertical component",
+            "Equal to the initial horizontal component",
+            "Cannot be determined"
+        ],
+        "answer": "A",
+        "explanation": "At the highest point of projectile motion, the vertical component of velocity becomes zero.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 327,
+        "question": "A 5 kg block is lifted to a height of 5 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "250 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 5 = 250 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 131,
+        "question": "A body is projected horizontally with a velocity of 20 m/s from a height of 80 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "4 s",
+            "6 s",
+            "8 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 80 = (1/2)*10*t\u00b2 => t = 4 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 128,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 124,
+        "question": "Two resistors of 10\u03a9 and 5\u03a9 are connected in parallel. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1\u03a9",
+            "2\u03a9",
+            "3.33\u03a9",
+            "5\u03a9"
+        ],
+        "answer": "C",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 => 1/R_eq = 1/10 + 1/5 => R_eq = 3.33\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 249,
+        "question": "A 10 kg block is pushed with a force of 40 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 40 - (0.2 * 10 * 10) = 20. Therefore, a = 20/10 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 334,
+        "question": "A convex lens has a focal length of 15 cm. An object is placed 7.5 cm away. What is the nature of the image?",
+        "subject": "Optics",
+        "choices": [
+            "Real and inverted",
+            "Real and erect",
+            "Virtual and inverted",
+            "Virtual and erect"
+        ],
+        "answer": "D",
+        "explanation": "For a convex lens, when the object is placed between the lens and the focal point, the image is virtual and erect.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 11,
+        "question": "A body is projected horizontally with a velocity of 10 m/s from a height of 20 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "4 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 20 = (1/2)*10*t\u00b2 => t = 2 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 66,
+        "question": "A wheel rotates with an angular acceleration of 4 rad/s\u00b2. If its initial angular velocity is 2 rad/s, what is its angular velocity after 5 seconds?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 rad/s",
+            "12 rad/s",
+            "14 rad/s",
+            "16 rad/s"
+        ],
+        "answer": "B",
+        "explanation": "\u03c9 = \u03c9\u2080 + \u03b1t => \u03c9 = 2 + 4*5 = 12 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 346,
+        "question": "A body is projected horizontally with a velocity of 35 m/s from a height of 70 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "3 s",
+            "4 s",
+            "5 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 70 = (1/2)*10*t\u00b2 => t = \u221a(14) \u2248 3.74 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 350,
+        "question": "A 300 W bulb is used for 6 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.6 kWh",
+            "1.8 kWh",
+            "2 kWh"
+        ],
+        "answer": "C",
+        "explanation": "Energy = Power * Time = 300 W * 6 h = 1.8 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 285,
+        "question": "A 5 kg block is lifted to a height of 6 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "300 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 6 = 300 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 65,
+        "question": "A car travels with a constant acceleration of 2 m/s\u00b2. If its initial velocity is 5 m/s, what is its velocity after 10 seconds?",
+        "subject": "Kinematics",
+        "choices": [
+            "15 m/s",
+            "20 m/s",
+            "25 m/s",
+            "30 m/s"
+        ],
+        "answer": "C",
+        "explanation": "v = u + at => v = 5 + 2*10 = 25 m/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 163,
+        "question": "A convex mirror has a focal length of 25 cm. An object is placed 50 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "15 cm",
+            "20 cm",
+            "25 cm"
+        ],
+        "answer": "B",
+        "explanation": "1/f = 1/v + 1/u => 1/25 = 1/v + 1/50 => v = 15 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 86,
+        "question": "A car accelerates from 0 to 20 m/s in 5 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "6 m/s\u00b2",
+            "8 m/s\u00b2"
+        ],
+        "answer": "A",
+        "explanation": "a = (v - u) / t = (20 - 0) / 5 = 4 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 155,
+        "question": "A force of 300 N is applied to a 150 kg object. What is the acceleration of the object?",
+        "subject": "Mechanics",
+        "choices": [
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2",
+            "4 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 300/150 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 121,
+        "question": "A car accelerates from 0 to 30 m/s in 6 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (30 - 0) / 6 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 331,
+        "question": "A 10 \u03a9 resistor is connected across a 15 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 15/10 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 226,
+        "question": "A 10 \u03a9 resistor is connected across a 15 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 15/10 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 221,
+        "question": "A 15 kg block is pushed with a force of 45 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 45 - (0.2 * 15 * 10) = 15. Therefore, a = 15/15 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 75,
+        "question": "A charge of 5 C is placed in an electric field of intensity 20 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "25 N",
+            "50 N",
+            "75 N",
+            "100 N"
+        ],
+        "answer": "B",
+        "explanation": "F = qE = 5 * 20 = 100 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 107,
+        "question": "A machine does 1000 J of work in 20 seconds. What is its power output?",
+        "subject": "Mechanics",
+        "choices": [
+            "50 W",
+            "100 W",
+            "150 W",
+            "200 W"
+        ],
+        "answer": "A",
+        "explanation": "Power = Work / Time = 1000 / 20 = 50 W",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 204,
+        "question": "A force of 60 N is applied to a 6 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 60/6 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 38,
+        "question": "What is the potential difference across a 5 \u03a9 resistor when a current of 2 A flows through it?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "2.5 V",
+            "5 V",
+            "10 V",
+            "20 V"
+        ],
+        "answer": "C",
+        "explanation": "V = IR = 2 * 5 = 10 V",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 212,
+        "question": "A body is projected horizontally with a velocity of 25 m/s from a height of 50 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "4 s",
+            "6 s",
+            "8 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 50 = (1/2)*10*t\u00b2 => t = \u221a(10) \u2248 3.16 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 269,
+        "question": "What is the function of an inductor?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Store energy in a magnetic field",
+            "Convert AC to DC"
+        ],
+        "answer": "C",
+        "explanation": "An inductor stores energy in a magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 232,
+        "question": "What is the magnetic permeability of a superconductor?",
+        "subject": "Magnetism",
+        "choices": [
+            "Less than 1",
+            "Equal to 1",
+            "Greater than 1",
+            "Zero"
+        ],
+        "answer": "D",
+        "explanation": "Superconductors have zero magnetic permeability.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 337,
+        "question": "A wheel rotates at 240 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "25.12 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 240) / 60 = 25.12 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 168,
+        "question": "What is the number of neutrons in an atom of Uranium-235?",
+        "subject": "Atoms",
+        "choices": [
+            "92",
+            "143",
+            "235",
+            "327"
+        ],
+        "answer": "B",
+        "explanation": "Uranium-235 has a mass number of 235 and atomic number of 92. Therefore, number of neutrons = 235 - 92 = 143.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 166,
+        "question": "A NOT gate has an input of HIGH. What is the output?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NOT gate inverts the input. So, if the input is HIGH, the output is LOW.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 94,
+        "question": "What particle is emitted during alpha decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "D",
+        "explanation": "Alpha Particle.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 90,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 357,
+        "question": "A 150 W bulb is used for 5 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.75 kWh",
+            "1 kWh",
+            "1.25 kWh"
+        ],
+        "answer": "B",
+        "explanation": "Energy = Power * Time = 150 W * 5 h = 0.75 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 319,
+        "question": "A 10 kg block is pushed with a force of 40 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 40 - (0.2 * 10 * 10) = 20. Therefore, a = 20/10 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 171,
+        "question": "A wheel rotates at 120 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "12.56 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 120) / 60 = 12.56 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 101,
+        "question": "A stone is dropped from a height of 80 m. How long does it take to reach the ground? (Take g = 10 m/s\u00b2)",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "4 s",
+            "6 s",
+            "8 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 80 = (1/2)*10*t\u00b2 => t = \u221a(16) = 4 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 160,
+        "question": "A gas is compressed at constant temperature. What happens to its volume?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "B",
+        "explanation": "According to Boyle's Law, P1V1 = P2V2. If pressure increases, volume decreases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 374,
+        "question": "A wave has a frequency of 500 Hz and a wavelength of 2 m. What is its speed?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "100 m/s",
+            "200 m/s",
+            "500 m/s",
+            "1000 m/s"
+        ],
+        "answer": "B",
+        "explanation": "v = f\u03bb = 500 * 2 = 1000 m/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 294,
+        "question": "Two wires carry currents of 2A and 4A respectively in the same direction. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "A",
+        "explanation": "Parallel currents flowing in the same direction attract each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 227,
+        "question": "A Carnot engine operates between 10\u00b0C and 110\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (283/383) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 189,
+        "question": "Two wires carry currents of 1A and 2A respectively in the same direction. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "A",
+        "explanation": "Parallel currents flowing in the same direction attract each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 8,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 242,
+        "question": "A convex lens has a focal length of 25 cm. An object is placed 12.5 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "25 cm",
+            "50 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/25 = 1/v + 1/12.5 => v = 50 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 140,
+        "question": "What is the change in internal energy of an ideal gas during an adiabatic process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "D",
+        "explanation": "In an adiabatic process, the change in internal energy depends on the work done on or by the gas.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 222,
+        "question": "A 5 kg block is lifted to a height of 5 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "250 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 5 = 250 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 295,
+        "question": "A charge of 5 C is placed in an electric field of intensity 15 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "75 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 5 * 15 = 75 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 356,
+        "question": "A 8 kg block is lifted to a height of 7 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "560 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 8 * 10 * 7 = 560 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 219,
+        "question": "A 20 \u03a9 resistor is connected across a 20 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "2 A",
+            "4 A"
+        ],
+        "answer": "B",
+        "explanation": "I = V/R = 20/20 = 1 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 284,
+        "question": "A 10 kg block is pushed with a force of 40 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 40 - (0.2 * 10 * 10) = 20. Therefore, a = 20/10 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 134,
+        "question": "A 15 kg block is lifted to a height of 4 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+        ],
+        "answer": "C",
+        "explanation": "W = mgh = 15 * 10 * 4 = 600 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 97,
+        "question": "A 3 kg mass is attached to a spring with a spring constant of 150 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "A",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(3/150) = 0.2\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 12,
+        "question": "A 2 kg mass is attached to a spring with a spring constant of 100 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(2/100) = 0.4\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 265,
+        "question": "What is the refractive index of a medium in which the speed of light is 2.25 x 10^8 m/s?",
+        "subject": "Optics",
+        "choices": [
+            "1",
+            "1.33",
+            "1.5",
+            "1.75"
+        ],
+        "answer": "C",
+        "explanation": "Refractive index = Speed of light in vacuum / Speed of light in medium = 3 x 10^8 / 2.25 x 10^8 = 1.33",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 321,
+        "question": "A 200 W bulb is used for 4 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.6 kWh",
+            "0.7 kWh",
+            "0.8 kWh"
+        ],
+        "answer": "D",
+        "explanation": "Energy = Power * Time = 200 W * 4 h = 0.8 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 70,
+        "question": "A wave travels with a speed of 300 m/s and has a wavelength of 3 m. What is its frequency?",
+        "subject": "Wave Motion",
+        "choices": [
+            "50 Hz",
+            "100 Hz",
+            "150 Hz",
+            "200 Hz"
+        ],
+        "answer": "C",
+        "explanation": "Frequency = Speed / Wavelength = 300 / 3 = 100 Hz",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 314,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 7,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 397,
+        "question": "Which of the following is a renewable energy source?",
+        "subject": "Energy and Environment",
+        "choices": [
+            "Coal",
+            "Natural Gas",
+            "Solar Energy",
+            "Petroleum"
+        ],
+        "answer": "C",
+        "explanation": "Solar energy is renewable, while coal, gas, and petroleum are non-renewable.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 282,
+        "question": "A body is projected horizontally with a velocity of 30 m/s from a height of 90 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "3 s",
+            "4 s",
+            "5 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 90 = (1/2)*10*t\u00b2 => t = \u221a(18) \u2248 4.24 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 110,
+        "question": "A charge of 10 C is placed in an electric field of intensity 50 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "500 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 10 * 50 = 500 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 150,
+        "question": "A stone is dropped from a height of 60 m. How long does it take to reach the ground? (Take g = 10 m/s\u00b2)",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "3 s",
+            "4 s",
+            "5 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 60 = (1/2)*10*t\u00b2 => t = \u221a(12) \u2248 3 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 179,
+        "question": "A ball is thrown vertically upwards with a velocity of 40 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "80 m"
+        ],
+        "answer": "D",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 40\u00b2 - 2*10*h => h = 80 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 114,
+        "question": "A convex mirror has a focal length of 15 cm. An object is placed 30 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "12 cm",
+            "15 cm",
+            "20 cm"
+        ],
+        "answer": "B",
+        "explanation": "1/f = 1/v + 1/u => 1/15 = 1/v + 1/30 => v = 12 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 20,
+        "question": "What is the change in internal energy of an ideal gas during an isothermal process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "A",
+        "explanation": "Internal energy of an ideal gas depends only on temperature. In an isothermal process, temperature remains constant.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 251,
+        "question": "A 200 W bulb is used for 4 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.6 kWh",
+            "0.7 kWh",
+            "0.8 kWh"
+        ],
+        "answer": "D",
+        "explanation": "Energy = Power * Time = 200 W * 4 h = 0.8 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 119,
+        "question": "What is the number of neutrons in an atom of Uranium-238?",
+        "subject": "Atoms",
+        "choices": [
+            "92",
+            "146",
+            "238",
+            "330"
+        ],
+        "answer": "B",
+        "explanation": "Uranium-238 has a mass number of 238 and atomic number of 92. Therefore, number of neutrons = 238 - 92 = 146.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 248,
+        "question": "A 5 kg mass is attached to a spring with a spring constant of 200 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(5/200) = 0.4\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 279,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 158,
+        "question": "A 15 \u03a9 resistor and a 30 \u03a9 resistor are connected in parallel. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "5 \u03a9",
+            "10 \u03a9",
+            "15 \u03a9",
+            "20 \u03a9"
+        ],
+        "answer": "B",
+        "explanation": "1/R_total = 1/R1 + 1/R2 = 1/15 + 1/30 = 3/30 => R_total = 30/3 = 10 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 335,
+        "question": "What is the refractive index of a medium in which the speed of light is 2.25 x 10^8 m/s?",
+        "subject": "Optics",
+        "choices": [
+            "1",
+            "1.33",
+            "1.5",
+            "1.75"
+        ],
+        "answer": "C",
+        "explanation": "Refractive index = Speed of light in vacuum / Speed of light in medium = 3 x 10^8 / 2.25 x 10^8 = 1.33",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 393,
+        "question": "What is the SI unit of frequency?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "Hertz",
+            "Newton",
+            "Joule",
+            "Watt"
+        ],
+        "answer": "A",
+        "explanation": "The SI unit of frequency is the hertz (Hz).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 153,
+        "question": "A pendulum has a time period of 4 seconds. What is its length? (Take g = 10 m/s\u00b2)",
+        "subject": "Periodic Motion",
+        "choices": [
+            "1 m",
+            "2 m",
+            "4 m",
+            "8 m"
+        ],
+        "answer": "C",
+        "explanation": "T = 2\u03c0\u221a(L/g) => 4 = 2\u03c0\u221a(L/10) => L = 4 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 353,
+        "question": "A 15 \u03a9 resistor is connected across a 45 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1 A",
+            "2 A",
+            "3 A",
+            "4 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 45/15 = 3 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 185,
+        "question": "Two wires carry currents of 4A and 5A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other."
+    },
+    {
+        "id": 371,
+        "question": "A force of 10 N is applied to a body of mass 2 kg. What is its acceleration?",
+        "subject": "Mechanics",
+        "choices": [
+            "2 m/s\u00b2",
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 10/2 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 340,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 104,
+        "question": "A pendulum has a time period of 3 seconds. What is its length? (Take g = 10 m/s\u00b2)",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.5 m",
+            "1.5 m",
+            "2.25 m",
+            "4.5 m"
+        ],
+        "answer": "C",
+        "explanation": "T = 2\u03c0\u221a(L/g) => 3 = 2\u03c0\u221a(L/10) => L = 2.25 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 192,
+        "question": "A Carnot engine operates between 0\u00b0C and 100\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (273/373) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 26,
+        "question": "What is the function of a diode?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "C",
+        "explanation": "A diode allows current flow in one direction only.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 377,
+        "question": "Which law states that the induced emf is proportional to the rate of change of magnetic flux?",
+        "subject": "Electromagnetic Induction",
+        "choices": [
+            "Ohm\u2019s Law",
+            "Faraday\u2019s Law",
+            "Lenz\u2019s Law",
+            "Newton\u2019s Law"
+        ],
+        "answer": "B",
+        "explanation": "Faraday\u2019s Law states that the induced emf is proportional to the rate of change of magnetic flux.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 330,
+        "question": "A charge of 5 C is placed in an electric field of intensity 15 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "75 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 5 * 15 = 75 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 106,
+        "question": "A force of 200 N is applied to a 100 kg object. What is the acceleration of the object?",
+        "subject": "Mechanics",
+        "choices": [
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2",
+            "4 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 200/100 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 202,
+        "question": "A car accelerates from 0 to 50 m/s in 10 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (50 - 0) / 10 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 91,
+        "question": "A convex lens has a focal length of 10 cm. An object is placed 15 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "15 cm",
+            "20 cm",
+            "30 cm"
+        ],
+        "answer": "C",
+        "explanation": "1/f = 1/v + 1/u => 1/10 = 1/v + 1/15 => v = 30 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 363,
+        "question": "A 9 kg block is lifted to a height of 6 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "540 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 9 * 10 * 6 = 540 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 152,
+        "question": "A projectile is launched at an angle of 60 degrees with the horizontal. What is the vertical component of its velocity at the highest point?",
+        "subject": "Kinematics",
+        "choices": [
+            "0 m/s",
+            "Equal to the initial vertical component",
+            "Equal to the initial horizontal component",
+            "Cannot be determined"
+        ],
+        "answer": "A",
+        "explanation": "At the highest point of projectile motion, the vertical component of velocity becomes zero.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 278,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 49,
+        "question": "What is the atomic number of an element?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Mass number"
+        ],
+        "answer": "A",
+        "explanation": "The atomic number of an element is equal to the number of protons in its nucleus.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 105,
+        "question": "A wave has a frequency of 15 Hz and a wavelength of 4 m. What is its speed?",
+        "subject": "Wave Motion",
+        "choices": [
+            "30 m/s",
+            "45 m/s",
+            "60 m/s",
+            "75 m/s"
+        ],
+        "answer": "C",
+        "explanation": "Wave speed (v) = Frequency (f) * Wavelength (\u03bb) => v = 15 * 4 = 60 m/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 157,
+        "question": "A 30 \u03a9 resistor and a 60 \u03a9 resistor are connected in series. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "30 \u03a9",
+            "45 \u03a9",
+            "60 \u03a9",
+            "90 \u03a9"
+        ],
+        "answer": "D",
+        "explanation": "R_total = R1 + R2 = 30 + 60 = 90 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 63,
+        "question": "A lens has a focal length of 10 cm. If an object is placed 20 cm from the lens, where will the image be formed?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "40 cm"
+        ],
+        "answer": "B",
+        "explanation": "Using the lens formula: 1/f = 1/v + 1/u. 1/10 = 1/v - 1/20. Solving for v, we get v = 20 cm.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 208,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 148,
+        "question": "What is the difference between ions of an element?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "C",
+        "explanation": "Ions of an element have the same number of protons but different number of electrons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 147,
+        "question": "What is the number of neutrons in an atom of Helium-4?",
+        "subject": "Atoms",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "A",
+        "explanation": "Helium-4 has a mass number of 4 and atomic number of 2. Therefore, number of neutrons = 4 - 2 = 2.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 301,
+        "question": "A bar magnet is cut into five equal pieces. What happens to its magnetic moment?",
+        "subject": "Magnetism",
+        "choices": [
+            "Remains the same",
+            "Becomes one-fifth",
+            "Becomes double",
+            "Becomes zero"
+        ],
+        "answer": "B",
+        "explanation": "Magnetic moment is proportional to the length of the magnet. Cutting it into five equal pieces reduces the magnetic moment to one-fifth.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 239,
+        "question": "A force of 70 N is applied to a 7 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 70/7 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 201,
+        "question": "What is the difference between cations and anions?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "C",
+        "explanation": "Cations have fewer electrons than protons, while anions have more electrons than protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 316,
+        "question": "A ball is thrown vertically upwards with a velocity of 45 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "100 m"
+        ],
+        "answer": "D",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 45\u00b2 - 2*10*h => h = 100 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 299,
+        "question": "A convex lens has a focal length of 15 cm. An object is placed 7.5 cm away. What is the nature of the image?",
+        "subject": "Optics",
+        "choices": [
+            "Real and inverted",
+            "Real and erect",
+            "Virtual and inverted",
+            "Virtual and erect"
+        ],
+        "answer": "D",
+        "explanation": "For a convex lens, when the object is placed between the lens and the focal point, the image is virtual and erect.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 61,
+        "question": "A Carnot engine operates between temperatures of 300 K and 600 K. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "B",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (300/600) = 0.5 or 50%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 132,
+        "question": "A 4 kg mass is attached to a spring with a spring constant of 200 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "A",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(4/200) = 0.2\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 174,
+        "question": "An ideal gas is heated at constant pressure. What happens to its volume?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Charles's Law, V1/T1 = V2/T2. If temperature increases, volume increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 85,
+        "question": "What is the difference between isotopes of an element?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "B",
+        "explanation": "Isotopes of an element have the same number of protons but different number of neutrons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 9,
+        "question": "What particle is emitted during beta decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "C",
+        "explanation": "Electron (Beta Particle).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 370,
+        "question": "A body of mass 10 kg is moving with a velocity of 5 m/s. What is its kinetic energy?",
+        "subject": "Mechanics",
+        "choices": [
+            "50 J",
+            "100 J",
+            "125 J",
+            "250 J"
+        ],
+        "answer": "C",
+        "explanation": "KE = (1/2)mv\u00b2 = (1/2) * 10 * 5\u00b2 = 125 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 178,
+        "question": "What particle is emitted during gamma decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Gamma Photon"
+        ],
+        "answer": "D",
+        "explanation": "Gamma Photon.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 382,
+        "question": "A simple pendulum has a length of 1 m. What is its approximate time period?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "4 s"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(l/g) = 2\u03c0\u221a(1/9.8) \u2248 2 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 298,
+        "question": "What is the change in internal energy of an ideal gas during an isochoric process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "D",
+        "explanation": "In an isochoric process, the change in internal energy depends on the heat added to or removed from the gas.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 19,
+        "question": "A Carnot engine operates between 27\u00b0C and 127\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (300/400) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 379,
+        "question": "A sound wave travels with a speed of 340 m/s and a wavelength of 0.85 m. What is its frequency?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "100 Hz",
+            "200 Hz",
+            "400 Hz",
+            "800 Hz"
+        ],
+        "answer": "C",
+        "explanation": "f = v/\u03bb = 340 / 0.85 = 400 Hz",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 277,
+        "question": "A convex lens has a focal length of 25 cm. An object is placed 12.5 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "25 cm",
+            "50 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/25 = 1/v + 1/12.5 => v = 50 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 180,
+        "question": "A body is projected horizontally with a velocity of 25 m/s from a height of 100 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "4 s",
+            "6 s",
+            "8 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 100 = (1/2)*10*t\u00b2 => t = 4 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 267,
+        "question": "What is the magnetic permeability of a superconductor?",
+        "subject": "Magnetism",
+        "choices": [
+            "Less than 1",
+            "Equal to 1",
+            "Greater than 1",
+            "Zero"
+        ],
+        "answer": "D",
+        "explanation": "Superconductors have zero magnetic permeability.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 142,
+        "question": "What is the refractive index of a medium in which the speed of light is 1.5 x 10^8 m/s?",
+        "subject": "Optics",
+        "choices": [
+            "1",
+            "1.33",
+            "2",
+            "3"
+        ],
+        "answer": "C",
+        "explanation": "Refractive index = Speed of light in vacuum / Speed of light in medium = 3 x 10^8 / 1.5 x 10^8 = 2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 263,
+        "question": "What is the change in internal energy of an ideal gas during an isochoric process?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the process"
+        ],
+        "answer": "D",
+        "explanation": "In an isochoric process, the change in internal energy depends on the heat added to or removed from the gas.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 268,
+        "question": "What is the output of a NOR gate when both inputs are HIGH?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NOR gate outputs LOW when both inputs are HIGH.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 87,
+        "question": "A wheel rotates at 60 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "12.56 rad/s"
+        ],
+        "answer": "A",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 60) / 60 = 6.28 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 305,
+        "question": "What is the number of protons in an atom of Sodium-23?",
+        "subject": "Atoms",
+        "choices": [
+            "11",
+            "12",
+            "23",
+            "24"
+        ],
+        "answer": "A",
+        "explanation": "Sodium has an atomic number of 11, which means it has 11 protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 264,
+        "question": "A convex lens has a focal length of 15 cm. An object is placed 7.5 cm away. What is the nature of the image?",
+        "subject": "Optics",
+        "choices": [
+            "Real and inverted",
+            "Real and erect",
+            "Virtual and inverted",
+            "Virtual and erect"
+        ],
+        "answer": "D",
+        "explanation": "For a convex lens, when the object is placed between the lens and the focal point, the image is virtual and erect.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 345,
+        "question": "A ball is thrown vertically upwards with a velocity of 50 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "125 m"
+        ],
+        "answer": "D",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 50\u00b2 - 2*10*h => h = 125 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 31,
+        "question": "A ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its velocity at the highest point?",
+        "subject": "Kinematics",
+        "choices": [
+            "0 m/s",
+            "5 m/s",
+            "10 m/s",
+            "-10 m/s"
+        ],
+        "answer": "A",
+        "explanation": "At the highest point, the ball momentarily comes to rest before falling back down.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 116,
+        "question": "A bar magnet is placed in a non-uniform magnetic field. What happens to the magnet?",
+        "subject": "Magnetism",
+        "choices": [
+            "It aligns with the field",
+            "It rotates randomly",
+            "It moves towards the stronger part of the field",
+            "It remains stationary"
+        ],
+        "answer": "C",
+        "explanation": "A bar magnet moves towards the stronger part of a non-uniform magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 133,
+        "question": "A 20 kg block is pushed with a force of 40 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 40 - (0.2 * 20 * 10) = 0. Therefore, a = 0",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 342,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 243,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 308,
+        "question": "A wheel rotates at 180 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "18.84 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 180) / 60 = 18.84 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 172,
+        "question": "A force of 50 N is applied to a 5 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 50/5 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 103,
+        "question": "A projectile is launched at an angle of 45 degrees with the horizontal. What is the vertical component of its velocity at the highest point?",
+        "subject": "Kinematics",
+        "choices": [
+            "0 m/s",
+            "Equal to the initial vertical component",
+            "Equal to the initial horizontal component",
+            "Cannot be determined"
+        ],
+        "answer": "A",
+        "explanation": "At the highest point of projectile motion, the vertical component of velocity becomes zero.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 359,
+        "question": "A charge of 25 C is placed in an electric field of intensity 40 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "1000 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 25 * 40 = 1000 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 183,
+        "question": "A 20 kg block is lifted to a height of 5 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+        ],
+        "answer": "C",
+        "explanation": "W = mgh = 20 * 10 * 5 = 1000 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 329,
+        "question": "Two wires carry currents of 2A and 4A respectively in the same direction. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "A",
+        "explanation": "Parallel currents flowing in the same direction attract each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 351,
+        "question": "Two wires carry currents of 4A and 6A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 325,
+        "question": "A Carnot engine operates between 20\u00b0C and 120\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (293/393) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 344,
+        "question": "What particle is emitted during beta decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "C",
+        "explanation": "Electron (Beta Particle).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 270,
+        "question": "What is the number of protons in an atom of Sodium-23?",
+        "subject": "Atoms",
+        "choices": [
+            "11",
+            "12",
+            "23",
+            "24"
+        ],
+        "answer": "A",
+        "explanation": "Sodium has an atomic number of 11, which means it has 11 protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 55,
+        "question": "A body of mass 2 kg is moved up a height of 5 m. The work done is:",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+        ],
+        "answer": "C",
+        "explanation": "W = mgh = 2 * 10 * 5 = 100 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 297,
+        "question": "A Carnot engine operates between 10\u00b0C and 110\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (283/383) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 246,
+        "question": "A ball is thrown vertically upwards with a velocity of 45 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "100 m"
+        ],
+        "answer": "D",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 45\u00b2 - 2*10*h => h = 100 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 238,
+        "question": "A wheel rotates at 180 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "18.84 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 180) / 60 = 18.84 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 68,
+        "question": "A ball is thrown horizontally from a height of 20 m with a speed of 10 m/s. How far from the base of the building will the ball land?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "30 m",
+            "40 m"
+        ],
+        "answer": "B",
+        "explanation": "Time to fall: t = \u221a(2h/g) = \u221a(2*20/10) = 2 s. Horizontal distance = vt = 10*2 = 20 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 43,
+        "question": "A concave mirror forms a real and inverted image of an object. What is the position of the object relative to the mirror?",
+        "subject": "Optics",
+        "choices": [
+            "Between the pole and the focus",
+            "At the focus",
+            "Between the focus and the center of curvature",
+            "Beyond the center of curvature"
+        ],
+        "answer": "D",
+        "explanation": "A concave mirror forms a real and inverted image when the object is placed beyond the center of curvature.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 395,
+        "question": "Which type of nuclear reaction powers the Sun?",
+        "subject": "Modern Physics",
+        "choices": [
+            "Fission",
+            "Fusion",
+            "Radioactive decay",
+            "Beta decay"
+        ],
+        "answer": "B",
+        "explanation": "The Sun is powered by nuclear fusion, where hydrogen nuclei combine to form helium.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 122,
+        "question": "A wheel rotates at 90 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "12.56 rad/s"
+        ],
+        "answer": "C",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 90) / 60 = 9.42 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 169,
+        "question": "What is the difference between isotopes of an element?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "B",
+        "explanation": "Isotopes of an element have the same number of protons but different number of neutrons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 211,
+        "question": "A ball is thrown vertically upwards with a velocity of 35 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "60 m"
+        ],
+        "answer": "C",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 35\u00b2 - 2*10*h => h = 60 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 273,
+        "question": "A wheel rotates at 180 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "18.84 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 180) / 60 = 18.84 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 197,
+        "question": "What is the magnetic permeability of a ferromagnetic material?",
+        "subject": "Magnetism",
+        "choices": [
+            "Less than 1",
+            "Equal to 1",
+            "Greater than 1",
+            "Zero"
+        ],
+        "answer": "C",
+        "explanation": "Ferromagnetic materials have permeability much greater than 1.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 266,
+        "question": "A bar magnet is cut into five equal pieces. What happens to its magnetic moment?",
+        "subject": "Magnetism",
+        "choices": [
+            "Remains the same",
+            "Becomes one-fifth",
+            "Becomes double",
+            "Becomes zero"
+        ],
+        "answer": "B",
+        "explanation": "Magnetic moment is proportional to the length of the magnet. Cutting it into five equal pieces reduces the magnetic moment to one-fifth.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 318,
+        "question": "A 5 kg mass is attached to a spring with a spring constant of 200 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(5/200) = 0.4\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 18,
+        "question": "A 10 \u03a9 resistor is connected across a 20 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "2 A",
+            "20 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 20/10 = 2 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 209,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 125,
+        "question": "An ideal gas is heated at constant pressure. What happens to its volume?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Charles's Law, V1/T1 = V2/T2. If temperature increases, volume increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 188,
+        "question": "A 100 W bulb is used for 2 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.1 kWh",
+            "0.2 kWh",
+            "0.3 kWh",
+            "0.4 kWh"
+        ],
+        "answer": "B",
+        "explanation": "Energy = Power * Time = 100 W * 2 h = 0.2 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 22,
+        "question": "What is the refractive index of a medium in which the speed of light is 2 x 10^8 m/s?",
+        "subject": "Optics",
+        "choices": [
+            "1",
+            "1.33",
+            "1.5",
+            "2"
+        ],
+        "answer": "C",
+        "explanation": "Refractive index = Speed of light in vacuum / Speed of light in medium = 3 x 10^8 / 2 x 10^8 = 1.5",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 21,
+        "question": "A convex lens has a focal length of 20 cm. An object is placed 10 cm away. What is the nature of the image?",
+        "subject": "Optics",
+        "choices": [
+            "Real and inverted",
+            "Real and erect",
+            "Virtual and inverted",
+            "Virtual and erect"
+        ],
+        "answer": "D",
+        "explanation": "For a convex lens, when the object is placed between the lens and the focal point, the image is virtual and erect.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 146,
+        "question": "What is the function of a transistor?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "A",
+        "explanation": "A transistor is used to amplify signals.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 224,
+        "question": "Two wires carry currents of 2A and 4A respectively in the same direction. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "A",
+        "explanation": "Parallel currents flowing in the same direction attract each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 15,
+        "question": "A 100 W bulb is used for 10 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1 kWh",
+            "10 kWh",
+            "100 kWh",
+            "1000 kWh"
+        ],
+        "answer": "A",
+        "explanation": "Energy = Power * Time = 100 W * 10 h = 1 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 62,
+        "question": "During an isothermal process, what quantity remains constant?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Temperature",
+            "Pressure",
+            "Volume",
+            "Internal Energy"
+        ],
+        "answer": "A",
+        "explanation": "Isothermal means constant temperature.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 289,
+        "question": "A 20 \u03a9 resistor is connected across a 30 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 30/20 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 207,
+        "question": "A convex lens has a focal length of 20 cm. An object is placed 10 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "40 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/20 = 1/v + 1/10 => v = 40 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 213,
+        "question": "A 4 kg mass is attached to a spring with a spring constant of 100 N/m. What is the time period of oscillation?",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.2\u03c0 s",
+            "0.4\u03c0 s",
+            "0.6\u03c0 s",
+            "0.8\u03c0 s"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(m/k) = 2\u03c0\u221a(4/100) = 0.4\u03c0 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 225,
+        "question": "A charge of 5 C is placed in an electric field of intensity 15 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "75 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 5 * 15 = 75 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 93,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 307,
+        "question": "A car accelerates from 0 to 60 m/s in 12 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (60 - 0) / 12 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 5,
+        "question": "An ideal gas expands at constant temperature. What happens to its internal energy?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "C",
+        "explanation": "Internal energy of an ideal gas depends only on temperature.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 315,
+        "question": "What particle is emitted during beta decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Alpha Particle"
+        ],
+        "answer": "C",
+        "explanation": "Electron (Beta Particle).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 83,
+        "question": "A diode is used in a circuit. What is its main function?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "C",
+        "explanation": "A diode allows current flow in one direction only.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 154,
+        "question": "A wave has a frequency of 20 Hz and a wavelength of 5 m. What is its speed?",
+        "subject": "Wave Motion",
+        "choices": [
+            "50 m/s",
+            "75 m/s",
+            "100 m/s",
+            "125 m/s"
+        ],
+        "answer": "C",
+        "explanation": "Wave speed (v) = Frequency (f) * Wavelength (\u03bb) => v = 20 * 5 = 100 m/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 1,
+        "question": "A car accelerates uniformly from rest to a speed of 30 m/s in 10 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2",
+            "4 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (30 - 0) / 10 = 3 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 389,
+        "question": "Which type of lens is used to correct myopia?",
+        "subject": "Optics",
+        "choices": [
+            "Convex",
+            "Concave",
+            "Cylindrical",
+            "Bifocal"
+        ],
+        "answer": "B",
+        "explanation": "Concave lenses are used to correct myopia (nearsightedness).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 292,
+        "question": "A 5 kg block is lifted to a height of 5 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "250 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 5 = 250 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 313,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 200,
+        "question": "What is the number of protons in an atom of Neon-20?",
+        "subject": "Atoms",
+        "choices": [
+            "8",
+            "10",
+            "12",
+            "20"
+        ],
+        "answer": "B",
+        "explanation": "Neon has an atomic number of 10, which means it has 10 protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 311,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 42,
+        "question": "What is the specific heat capacity of water?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "1 J/g\u00b0C",
+            "4.18 J/g\u00b0C",
+            "10 J/g\u00b0C",
+            "100 J/g\u00b0C"
+        ],
+        "answer": "B",
+        "explanation": "The specific heat capacity of water is approximately 4.18 J/g\u00b0C.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 271,
+        "question": "What is the difference between isotopes and isobars?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "B",
+        "explanation": "Isotopes have the same number of protons but different number of neutrons, while isobars have the same mass number but different atomic numbers.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 96,
+        "question": "A body is projected horizontally with a velocity of 15 m/s from a height of 45 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "4 s"
+        ],
+        "answer": "C",
+        "explanation": "h = (1/2)gt\u00b2 => 45 = (1/2)*10*t\u00b2 => t = 3 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 40,
+        "question": "What is the unit of capacitance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "Ohm",
+            "Volt",
+            "Farad",
+            "Ampere"
+        ],
+        "answer": "C",
+        "explanation": "The unit of capacitance is Farad.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 51,
+        "question": "A body is thrown vertically upwards with a velocity of 15 m/s. What is the time taken to reach its maximum height? (g = 10 m/s\u00b2)",
+        "subject": "Kinematics",
+        "choices": [
+            "1 s",
+            "1.5 s",
+            "2 s",
+            "2.5 s"
+        ],
+        "answer": "B",
+        "explanation": "v = u - gt => 0 = 15 - 10t => t = 1.5 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 156,
+        "question": "A machine does 1500 J of work in 30 seconds. What is its power output?",
+        "subject": "Mechanics",
+        "choices": [
+            "25 W",
+            "50 W",
+            "75 W",
+            "100 W"
+        ],
+        "answer": "D",
+        "explanation": "Power = Work / Time = 1500 / 30 = 50 W",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 255,
+        "question": "A Carnot engine operates between 20\u00b0C and 120\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (293/393) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 164,
+        "question": "A current-carrying solenoid produces a magnetic field. What is the nature of the magnetic field outside the solenoid?",
+        "subject": "Magnetism",
+        "choices": [
+            "Zero",
+            "Uniform",
+            "Non-uniform",
+            "Depends on the current"
+        ],
+        "answer": "C",
+        "explanation": "The magnetic field outside a solenoid is non-uniform.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 216,
+        "question": "A 200 W bulb is used for 3 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.6 kWh",
+            "0.7 kWh",
+            "0.8 kWh"
+        ],
+        "answer": "B",
+        "explanation": "Energy = Power * Time = 200 W * 3 h = 0.6 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 77,
+        "question": "A Carnot engine operates between temperatures of 400 K and 800 K. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "B",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (400/800) = 0.5 or 50%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 161,
+        "question": "A Carnot engine operates between temperatures of 600 K and 1200 K. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "B",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (600/1200) = 0.5 or 50%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 262,
+        "question": "A Carnot engine operates between 10\u00b0C and 110\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (283/383) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 28,
+        "question": "What is the difference between isotopes of an element?",
+        "subject": "Atoms",
+        "choices": [
+            "Number of protons",
+            "Number of neutrons",
+            "Number of electrons",
+            "Atomic number"
+        ],
+        "answer": "B",
+        "explanation": "Isotopes of an element have the same number of protons but different number of neutrons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 234,
+        "question": "What is the function of an inductor?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Store energy in a magnetic field",
+            "Convert AC to DC"
+        ],
+        "answer": "C",
+        "explanation": "An inductor stores energy in a magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 130,
+        "question": "A ball is thrown vertically upwards with a velocity of 30 m/s. What is the maximum height it reaches?",
+        "subject": "Kinematics",
+        "choices": [
+            "10 m",
+            "20 m",
+            "45 m",
+            "60 m"
+        ],
+        "answer": "C",
+        "explanation": "v\u00b2 = u\u00b2 - 2gh => 0 = 30\u00b2 - 2*10*h => h = 45 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 92,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 257,
+        "question": "A 5 kg block is lifted to a height of 5 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "250 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 5 = 250 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 287,
+        "question": "Two wires carry currents of 3A and 5A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 2,
+        "question": "A wheel rotates at 120 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "6.28 rad/s",
+            "12.56 rad/s",
+            "18.84 rad/s",
+            "24.00 rad/s"
+        ],
+        "answer": "B",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 120) / 60 = 12.56 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 326,
+        "question": "A 15 kg block is pushed with a force of 45 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 45 - (0.2 * 15 * 10) = 15. Therefore, a = 15/15 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 81,
+        "question": "A bar magnet is placed in a uniform magnetic field. What happens to the magnet?",
+        "subject": "Magnetism",
+        "choices": [
+            "It aligns with the field",
+            "It rotates randomly",
+            "It moves perpendicular to the field",
+            "It remains stationary"
+        ],
+        "answer": "A",
+        "explanation": "A bar magnet aligns itself with the external magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 223,
+        "question": "A 100 W bulb is used for 3 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.1 kWh",
+            "0.2 kWh",
+            "0.3 kWh",
+            "0.4 kWh"
+        ],
+        "answer": "C",
+        "explanation": "Energy = Power * Time = 100 W * 3 h = 0.3 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 341,
+        "question": "A convex lens has a focal length of 30 cm. An object is placed 15 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "60 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/30 = 1/v + 1/15 => v = 60 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 398,
+        "question": "What is the acceleration due to gravity on Earth?",
+        "subject": "Mechanics",
+        "choices": [
+            "8.9 m/s\u00b2",
+            "9.8 m/s\u00b2",
+            "10.8 m/s\u00b2",
+            "11.8 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "The acceleration due to gravity on Earth is approximately 9.8 m/s\u00b2.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 361,
+        "question": "A Carnot engine operates between 40\u00b0C and 140\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (313/413) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 320,
+        "question": "A 5 kg block is lifted to a height of 6 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "300 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 6 = 300 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 59,
+        "question": "A 100 W bulb is used for 5 hours. The energy consumed is:",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "1 kWh",
+            "5 kWh",
+            "50 kWh"
+        ],
+        "answer": "A",
+        "explanation": "Energy = Power * Time = 100 W * 5 h = 0.5 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 6,
+        "question": "A concave mirror has a focal length of 20 cm. An object is placed 40 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "13.3 cm",
+            "20 cm",
+            "40 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/20 = 1/v - 1/40 => v = 40 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 129,
+        "question": "What particle is emitted during gamma decay of a nucleus?",
+        "subject": "Atoms",
+        "choices": [
+            "Proton",
+            "Neutron",
+            "Electron (Beta Particle)",
+            "Gamma Photon"
+        ],
+        "answer": "D",
+        "explanation": "Gamma Photon.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 240,
+        "question": "Two resistors of 20\u03a9 and 10\u03a9 are connected in parallel. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1\u03a9",
+            "2\u03a9",
+            "6.67\u03a9",
+            "10\u03a9"
+        ],
+        "answer": "C",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 => 1/R_eq = 1/20 + 1/10 => R_eq = 6.67\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 196,
+        "question": "A bar magnet is cut into four equal pieces. What happens to its magnetic moment?",
+        "subject": "Magnetism",
+        "choices": [
+            "Remains the same",
+            "Becomes one-fourth",
+            "Becomes double",
+            "Becomes zero"
+        ],
+        "answer": "B",
+        "explanation": "Magnetic moment is proportional to the length of the magnet. Cutting it into four equal pieces reduces the magnetic moment to one-fourth.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 198,
+        "question": "What is the output of a NOR gate when both inputs are LOW?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "A",
+        "explanation": "A NOR gate outputs HIGH only when both inputs are LOW.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 33,
+        "question": "A pendulum has a time period of 2 seconds. What is its length? (Take g = 10 m/s\u00b2)",
+        "subject": "Periodic Motion",
+        "choices": [
+            "0.5 m",
+            "1 m",
+            "2 m",
+            "4 m"
+        ],
+        "answer": "B",
+        "explanation": "T = 2\u03c0\u221a(L/g) => 2 = 2\u03c0\u221a(L/10) => L = 1 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 362,
+        "question": "A 10 kg block is pushed with a force of 40 N. If the coefficient of friction is 0.3, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 40 - (0.3 * 10 * 10) = 10. Therefore, a = 10/10 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 364,
+        "question": "A 250 W bulb is used for 4 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.75 kWh",
+            "1 kWh",
+            "1.25 kWh"
+        ],
+        "answer": "C",
+        "explanation": "Energy = Power * Time = 250 W * 4 h = 1 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 79,
+        "question": "A convex mirror has a focal length of 20 cm. An object is placed 40 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "13.3 cm",
+            "20 cm",
+            "40 cm"
+        ],
+        "answer": "B",
+        "explanation": "1/f = 1/v + 1/u => 1/20 = 1/v + 1/40 => v = 13.3 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 57,
+        "question": "Two resistors of 4 \u03a9 and 6 \u03a9 are connected in parallel. The equivalent resistance is:",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "2.4 \u03a9",
+            "4.8 \u03a9",
+            "10 \u03a9",
+            "24 \u03a9"
+        ],
+        "answer": "A",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 = 1/4 + 1/6 = 5/12 => R_eq = 12/5 = 2.4 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 25,
+        "question": "What is the output of a NOT gate when the input is HIGH?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NOT gate inverts the input. So, if the input is HIGH, the output is LOW.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 47,
+        "question": "What is the truth table for an XOR gate?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "0 0 -> 0, 0 1 -> 1, 1 0 -> 1, 1 1 -> 0",
+            "0 0 -> 0, 0 1 -> 0, 1 0 -> 0, 1 1 -> 1",
+            "0 0 -> 1, 0 1 -> 1, 1 0 -> 1, 1 1 -> 0",
+            "0 0 -> 1, 0 1 -> 0, 1 0 -> 0, 1 1 -> 1"
+        ],
+        "answer": "A",
+        "explanation": "An XOR gate outputs 1 only when the inputs are different.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 253,
+        "question": "A charge of 15 C is placed in an electric field of intensity 25 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "200 N",
+            "300 N",
+            "375 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 15 * 25 = 375 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 261,
+        "question": "A 10 \u03a9 resistor is connected across a 15 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 15/10 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 71,
+        "question": "A force of 100 N is applied to a 50 kg object. What is the acceleration of the object?",
+        "subject": "Mechanics",
+        "choices": [
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2",
+            "4 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 100/50 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 391,
+        "question": "What is the equivalent resistance of two 10\u03a9 resistors in parallel?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "5\u03a9",
+            "10\u03a9",
+            "20\u03a9",
+            "0\u03a9"
+        ],
+        "answer": "A",
+        "explanation": "1/R = 1/10 + 1/10 = 2/10 => R = 5\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 338,
+        "question": "A force of 80 N is applied to a 8 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 80/8 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 205,
+        "question": "Two resistors of 15\u03a9 and 5\u03a9 are connected in parallel. What is the equivalent resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "1\u03a9",
+            "2\u03a9",
+            "3.75\u03a9",
+            "5\u03a9"
+        ],
+        "answer": "C",
+        "explanation": "1/R_eq = 1/R1 + 1/R2 => 1/R_eq = 1/15 + 1/5 => R_eq = 3.75\u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 220,
+        "question": "A Carnot engine operates between 50\u00b0C and 150\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (323/423) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 135,
+        "question": "A 200 W bulb is used for 5 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "1 kWh",
+            "2 kWh",
+            "5 kWh"
+        ],
+        "answer": "B",
+        "explanation": "Energy = Power * Time = 200 W * 5 h = 1 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 276,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 376,
+        "question": "What is the frequency of a wave with a time period of 0.02 seconds?",
+        "subject": "Waves and Oscillations",
+        "choices": [
+            "10 Hz",
+            "20 Hz",
+            "50 Hz",
+            "100 Hz"
+        ],
+        "answer": "C",
+        "explanation": "f = 1/T = 1/0.02 = 50 Hz",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 127,
+        "question": "A current-carrying wire produces a magnetic field. What rule is used to determine its direction?",
+        "subject": "Magnetism",
+        "choices": [
+            "Right-Hand Thumb Rule",
+            "Left-Hand Rule",
+            "Fleming\u2019s Left-Hand Rule",
+            "Newton\u2019s Rule"
+        ],
+        "answer": "A",
+        "explanation": "Right-Hand Thumb Rule.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 392,
+        "question": "What happens to the pressure of a gas if its volume is doubled at constant temperature?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Doubles",
+            "Halves",
+            "Remains constant",
+            "Becomes zero"
+        ],
+        "answer": "B",
+        "explanation": "According to Boyle\u2019s Law (PV = constant), if volume doubles, pressure halves.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 349,
+        "question": "A 7 kg block is lifted to a height of 8 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "560 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 7 * 10 * 8 = 560 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 74,
+        "question": "A 5 \u03a9 resistor and a 10 \u03a9 resistor are connected in parallel. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "3.33 \u03a9",
+            "5 \u03a9",
+            "7.5 \u03a9",
+            "15 \u03a9"
+        ],
+        "answer": "A",
+        "explanation": "1/R_total = 1/R1 + 1/R2 = 1/5 + 1/10 = 3/10 => R_total = 10/3 = 3.33 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 235,
+        "question": "What is the number of protons in an atom of Sodium-23?",
+        "subject": "Atoms",
+        "choices": [
+            "11",
+            "12",
+            "23",
+            "24"
+        ],
+        "answer": "A",
+        "explanation": "Sodium has an atomic number of 11, which means it has 11 protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 203,
+        "question": "A wheel rotates at 150 rpm. What is its angular velocity in rad/s?",
+        "subject": "Kinematics",
+        "choices": [
+            "3.14 rad/s",
+            "6.28 rad/s",
+            "9.42 rad/s",
+            "15.7 rad/s"
+        ],
+        "answer": "D",
+        "explanation": "\u03c9 = 2\u03c0N / 60 = (2\u03c0 * 150) / 60 = 15.7 rad/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 256,
+        "question": "A 15 kg block is pushed with a force of 45 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 45 - (0.2 * 15 * 10) = 15. Therefore, a = 15/15 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 300,
+        "question": "What is the refractive index of a medium in which the speed of light is 2.25 x 10^8 m/s?",
+        "subject": "Optics",
+        "choices": [
+            "1",
+            "1.33",
+            "1.5",
+            "1.75"
+        ],
+        "answer": "C",
+        "explanation": "Refractive index = Speed of light in vacuum / Speed of light in medium = 3 x 10^8 / 2.25 x 10^8 = 1.33",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 304,
+        "question": "What is the function of an inductor?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Store energy in a magnetic field",
+            "Convert AC to DC"
+        ],
+        "answer": "C",
+        "explanation": "An inductor stores energy in a magnetic field.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 291,
+        "question": "A 15 kg block is pushed with a force of 45 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 45 - (0.2 * 15 * 10) = 15. Therefore, a = 15/15 = 1 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 109,
+        "question": "A 10 \u03a9 resistor and a 20 \u03a9 resistor are connected in parallel. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "3.33 \u03a9",
+            "5 \u03a9",
+            "6.67 \u03a9",
+            "10 \u03a9"
+        ],
+        "answer": "C",
+        "explanation": "1/R_total = 1/R1 + 1/R2 = 1/10 + 1/20 = 3/20 => R_total = 20/3 = 6.67 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 34,
+        "question": "A wave has a frequency of 10 Hz and a wavelength of 2 m. What is its speed?",
+        "subject": "Wave Motion",
+        "choices": [
+            "5 m/s",
+            "10 m/s",
+            "20 m/s",
+            "50 m/s"
+        ],
+        "answer": "C",
+        "explanation": "Wave speed (v) = Frequency (f) * Wavelength (\u03bb) => v = 10 * 2 = 20 m/s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 138,
+        "question": "A 20 \u03a9 resistor is connected across a 40 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "2 A",
+            "4 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 40/20 = 2 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 206,
+        "question": "An ideal gas is heated at constant volume. What happens to its pressure?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Doubles"
+        ],
+        "answer": "A",
+        "explanation": "According to Gay-Lussac's Law, P1/T1 = P2/T2. If temperature increases, pressure increases.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 162,
+        "question": "A concave lens has a focal length of 20 cm. An object is placed 40 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "-10 cm",
+            "-20 cm",
+            "-30 cm",
+            "-40 cm"
+        ],
+        "answer": "C",
+        "explanation": "1/f = 1/v - 1/u => 1/(-20) = 1/v - 1/40 => v = -30 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 383,
+        "question": "The focal length of a convex lens is 10 cm. What is its power?",
+        "subject": "Optics",
+        "choices": [
+            "10 D",
+            "5 D",
+            "2 D",
+            "1 D"
+        ],
+        "answer": "A",
+        "explanation": "P = 100/f = 100/10 = 10 D",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 118,
+        "question": "A diode is used in a rectifier circuit. What is its main function?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "D",
+        "explanation": "A diode in a rectifier circuit converts AC to DC.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 29,
+        "question": "A car travels with a constant velocity of 20 m/s for 10 seconds. What is the distance covered?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m",
+            "20 m",
+            "100 m",
+            "200 m"
+        ],
+        "answer": "D",
+        "explanation": "Distance = Velocity * Time = 20 * 10 = 200 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 167,
+        "question": "A diode is used in a rectifier circuit. What is its main function?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "Amplify signals",
+            "Store charge",
+            "Allow current flow in one direction",
+            "Convert AC to DC"
+        ],
+        "answer": "D",
+        "explanation": "A diode in a rectifier circuit converts AC to DC.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 369,
+        "question": "A 12 kg block is pushed with a force of 48 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 48 - (0.2 * 12 * 10) = 24. Therefore"
+    },
+    {
+        "id": 286,
+        "question": "A 200 W bulb is used for 4 hours. How much electrical energy is consumed?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 kWh",
+            "0.6 kWh",
+            "0.7 kWh",
+            "0.8 kWh"
+        ],
+        "answer": "D",
+        "explanation": "Energy = Power * Time = 200 W * 4 h = 0.8 kWh",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 139,
+        "question": "A Carnot engine operates between 100\u00b0C and 200\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (373/473) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 399,
+        "question": "What is the SI unit of electric charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "Volt",
+            "Ampere",
+            "Coulomb",
+            "Ohm"
+        ],
+        "answer": "C",
+        "explanation": "The SI unit of electric charge is the coulomb (C).",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 237,
+        "question": "A car accelerates from 0 to 60 m/s in 12 seconds. What is its acceleration?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 m/s\u00b2",
+            "4 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "answer": "C",
+        "explanation": "a = (v - u) / t = (60 - 0) / 12 = 5 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 324,
+        "question": "A 20 \u03a9 resistor is connected across a 30 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 30/20 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 394,
+        "question": "What is the charge of a proton?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "-1.6 \u00d7 10\u207b\u00b9\u2079 C",
+            "0 C",
+            "1.6 \u00d7 10\u207b\u00b9\u2079 C",
+            "3.2 \u00d7 10\u207b\u00b9\u2079 C"
+        ],
+        "answer": "C",
+        "explanation": "A proton has a charge of +1.6 \u00d7 10\u207b\u00b9\u2079 C.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 274,
+        "question": "A force of 70 N is applied to a 7 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 70/7 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 88,
+        "question": "A force of 30 N is applied to a 3 kg block. What is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "5 m/s\u00b2",
+            "10 m/s\u00b2",
+            "15 m/s\u00b2",
+            "20 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F = ma => a = F/m = 30/3 = 10 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 312,
+        "question": "A convex lens has a focal length of 25 cm. An object is placed 12.5 cm away. What is the image distance?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "25 cm",
+            "50 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/25 = 1/v + 1/12.5 => v = 50 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 37,
+        "question": "A machine has an efficiency of 80%. If it requires 100 J of energy input, what is its energy output?",
+        "subject": "Mechanics",
+        "choices": [
+            "20 J",
+            "80 J",
+            "100 J",
+            "125 J"
+        ],
+        "answer": "B",
+        "explanation": "Efficiency = (Energy Output / Energy Input) * 100% => Energy Output = (Efficiency * Energy Input) / 100 = (80 * 100) / 100 = 80 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 137,
+        "question": "A charge of 20 C is placed in an electric field of intensity 50 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "100 N",
+            "500 N",
+            "1000 N",
+            "2000 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 20 * 50 = 1000 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 108,
+        "question": "A 20 \u03a9 resistor and a 30 \u03a9 resistor are connected in series. What is the total resistance?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "20 \u03a9",
+            "25 \u03a9",
+            "30 \u03a9",
+            "50 \u03a9"
+        ],
+        "answer": "D",
+        "explanation": "R_total = R1 + R2 = 20 + 30 = 50 \u03a9",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 182,
+        "question": "A 25 kg block is pushed with a force of 50 N. If the coefficient of friction is 0.2, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "0 m/s\u00b2",
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2"
+        ],
+        "answer": "B",
+        "explanation": "F_net = F_applied - F_friction = 50 - (0.2 * 25 * 10) = 0. Therefore, a = 0",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 190,
+        "question": "A charge of 5 C is placed in an electric field of intensity 10 N/C. What is the force experienced by the charge?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "50 N"
+        ],
+        "answer": "D",
+        "explanation": "F = qE = 5 * 10 = 50 N",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 84,
+        "question": "What is the number of protons in an atom of Oxygen-16?",
+        "subject": "Atoms",
+        "choices": [
+            "6",
+            "8",
+            "10",
+            "16"
+        ],
+        "answer": "B",
+        "explanation": "Oxygen has an atomic number of 8, which means it has 8 protons.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 187,
+        "question": "A 5 kg block is lifted to a height of 3 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "150 J"
+        ],
+        "answer": "D",
+        "explanation": "W = mgh = 5 * 10 * 3 = 150 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 233,
+        "question": "What is the output of a NOR gate when both inputs are HIGH?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NOR gate outputs LOW when both inputs are HIGH.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 372,
+        "question": "A concave mirror has a focal length of 20 cm. Where will the image be formed if the object is at 30 cm?",
+        "subject": "Optics",
+        "choices": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "60 cm"
+        ],
+        "answer": "D",
+        "explanation": "1/f = 1/v + 1/u => 1/20 = 1/v + 1/30 => v = 60 cm",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 354,
+        "question": "A Carnot engine operates between 30\u00b0C and 130\u00b0C. What is its efficiency?",
+        "subject": "Thermodynamics",
+        "choices": [
+            "25%",
+            "33.3%",
+            "50%",
+            "66.6%"
+        ],
+        "answer": "A",
+        "explanation": "Efficiency = 1 - (T_cold/T_hot) = 1 - (303/403) = 0.25 or 25%",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 52,
+        "question": "A car moves with a speed of 40 km/h for 15 minutes and then with a speed of 60 km/h for the next 15 minutes. The total distance covered by the car is:",
+        "subject": "Kinematics",
+        "choices": [
+            "15 km",
+            "25 km",
+            "30 km",
+            "35 km"
+        ],
+        "answer": "B",
+        "explanation": "Distance = speed * time. Total distance = (40 km/h * 0.25 h) + (60 km/h * 0.25 h) = 10 km + 15 km = 25 km",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 388,
+        "question": "What type of mirror is used in car side mirrors?",
+        "subject": "Optics",
+        "choices": [
+            "Concave",
+            "Convex",
+            "Plane",
+            "None of the above"
+        ],
+        "answer": "B",
+        "explanation": "Convex mirrors are used as they provide a wider field of view.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 343,
+        "question": "A logic gate has inputs A and B. The output is HIGH only when both A and B are HIGH. Which gate is this?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "OR Gate",
+            "AND Gate",
+            "XOR Gate",
+            "NAND Gate"
+        ],
+        "answer": "B",
+        "explanation": "AND gate.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 149,
+        "question": "A car travels with a constant velocity of 15 m/s for 12 seconds. What is the distance covered?",
+        "subject": "Kinematics",
+        "choices": [
+            "100 m",
+            "150 m",
+            "180 m",
+            "200 m"
+        ],
+        "answer": "C",
+        "explanation": "Distance = Velocity * Time = 15 * 12 = 180 m",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 117,
+        "question": "A NOT gate has an input of HIGH. What is the output?",
+        "subject": "Electronic Devices",
+        "choices": [
+            "HIGH",
+            "LOW",
+            "Undefined",
+            "Depends on the gate"
+        ],
+        "answer": "B",
+        "explanation": "A NOT gate inverts the input. So, if the input is HIGH, the output is LOW.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 24,
+        "question": "What is the magnetic permeability of a diamagnetic material?",
+        "subject": "Magnetism",
+        "choices": [
+            "Less than 1",
+            "Equal to 1",
+            "Greater than 1",
+            "Zero"
+        ],
+        "answer": "A",
+        "explanation": "Diamagnetic materials have permeability slightly less than 1.",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 36,
+        "question": "A force of 10 N is applied to an object and it moves a distance of 5 m in the direction of the force. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "2 J",
+            "5 J",
+            "20 J",
+            "50 J"
+        ],
+        "answer": "D",
+        "explanation": "Work done = Force * Distance = 10 * 5 = 50 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 99,
+        "question": "A 10 kg block is lifted to a height of 3 meters. What is the work done?",
+        "subject": "Mechanics",
+        "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+        ],
+        "answer": "C",
+        "explanation": "W = mgh = 10 * 10 * 3 = 300 J",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 296,
+        "question": "A 10 \u03a9 resistor is connected across a 15 V battery. What is the current flowing through the resistor?",
+        "subject": "Electrostatics and Current Electricity",
+        "choices": [
+            "0.5 A",
+            "1 A",
+            "1.5 A",
+            "2 A"
+        ],
+        "answer": "C",
+        "explanation": "I = V/R = 15/10 = 1.5 A",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 186,
+        "question": "A 10 kg block is pushed with a force of 50 N. If the coefficient of friction is 0.3, what is the acceleration of the block?",
+        "subject": "Mechanics",
+        "choices": [
+            "1 m/s\u00b2",
+            "2 m/s\u00b2",
+            "3 m/s\u00b2",
+            "4 m/s\u00b2"
+        ],
+        "answer": "A",
+        "explanation": "F_net = F_applied - F_friction = 50 - (0.3 * 10 * 10) = 20. Therefore, a = 20/10 = 2 m/s\u00b2",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 317,
+        "question": "A body is projected horizontally with a velocity of 30 m/s from a height of 90 m. What is the time of flight?",
+        "subject": "Kinematics",
+        "choices": [
+            "2 s",
+            "3 s",
+            "4 s",
+            "5 s"
+        ],
+        "answer": "B",
+        "explanation": "h = (1/2)gt\u00b2 => 90 = (1/2)*10*t\u00b2 => t = \u221a(18) \u2248 4.24 s",
+        "dataset": "high_school_physics"
+    },
+    {
+        "id": 322,
+        "question": "Two wires carry currents of 3A and 5A respectively in opposite directions. What is the nature of the force between them?",
+        "subject": "Magnetism",
+        "choices": [
+            "Attractive",
+            "Repulsive",
+            "No force",
+            "Depends on the distance"
+        ],
+        "answer": "B",
+        "explanation": "Parallel currents flowing in opposite directions repel each other.",
+        "dataset": "high_school_physics"
+    }
+]
